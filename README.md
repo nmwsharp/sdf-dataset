@@ -16,10 +16,13 @@ Examples were ported from GLSL shader code in the [sdf-explorer](https://github.
 
 ## Installation & Building
 
-### Prerequisites
+### Prerequisites and Dependencies
 - CMake 3.16+
 - C++17 compatible compiler
-- Internet connection (for fetching Polyscope during build)
+- [OpenGL Mathematics (GLM)](https://github.com/g-truc/glm)
+- [Polyscope](https://polyscope.run/)
+
+_Note: GLM and Polyscope dependencies will be installed as submodules during build (see instructions below); you do not need to install them separately._
 
 ### Build Steps
 
